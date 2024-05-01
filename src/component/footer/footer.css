@@ -1,0 +1,35 @@
+.footer-area h6{
+  color: rgb(249, 190, 95);
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  position: relative;
+}
+.footer-area h6::after{
+    content: "";
+    width: 100px;
+    position: absolute;
+    margin: 0 auto;
+    height: 4px;
+    background: rgb(249, 190, 95);
+    left: 0;
+    right: 0;
+    bottom: -10px;
+}
+
+
+.footer-area p{
+    width: 60%;
+    color: gainsboro;
+    margin: 20px auto;
+}
+.footer-area input{
+    z-index: 5;
+}
+
+.footer-area Button{
+    font-size: 12.5px;
+    margin-left: -5px;
+}
+
+

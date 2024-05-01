@@ -1,0 +1,14 @@
+
+.user-text{
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: 0.5s color ease-in-out;
+}
+
+.user-text:hover{
+    color: red;
+}
+
+
+
+

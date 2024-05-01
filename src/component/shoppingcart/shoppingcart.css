@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #eee;
+}
+
+.product-details {
+  padding: 10px;
+  color: black;
+  font-size: 20px;
+}
+.product-details h2 {
+  color: #5189ac;
+  font-size: 26px;
+  font-weight: 300;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.product-details h2 b {
+  color: #08023d;
+}
+
+.p-about {
+  font-size: 12px;
+}
+
+
+.cart {
+  background: #fff;
+  font-family: "Poppins", sans-serif;
+   
+}
+
+.tablecart {
+  margin-top: 10px;
+}
+
+.tablecart thead {
+  font-size: 14px;
+  border-color: #EDF1FF;
+  background-color: #EDF1FF;
+}
+
+.tablecart thead tr td{
+  border: 1px solid #EDF1FF;
+  
+}
+.tablecart  td {
+  border: 1px solid #EDF1FF;
+  
+}
+
+.align-middle{
+  font-size: 16px;
+}
+.tablecart button{
+  border: none;
+  background-color: #510303;
+  color: white;
+  transition: 0.5s color ease-in-out;
+}
+
+.tablecart button:hover{
+  background-color: #767474;
+  
+}
+
+.tablecart .input{
+  font-size: 12px;
+  padding: 6px;
+}
+
+.tablecart i{
+  padding: 8px;
+  font-size: 12px;
+}
+
+.tablecart .delete {
+  cursor: pointer;
+  font-size: 20px;
+  color: #510303;
+  transition: 0.2s color ease-in-out;
+}
+
+
+.delete:hover {
+  color: #f19500;
+}
+
+
+.card{
+  padding: 0;
+  margin-top: 40px;
+  max-height: 250px;
+}
+.card h6 {
+  font-size: 14px;
+}
+
+.card button {
+  font-size: 12px;
+  margin-top: 20px;
+  
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px)  {
+     .tablecart{
+      width: 200px;
+     }
+
+     .align-middle{
+      font-size: 15px;
+    }
+
+    .tablecart i{
+      font-size: 8px;
+      
+    }
+    .tablecart input{
+      font-size: 6px;
+      
+    }
+}
+
+

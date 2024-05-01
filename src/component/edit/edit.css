@@ -1,0 +1,19 @@
+.table{
+  margin:50px 0;
+}
+
+.delete {
+    cursor: pointer;
+    font-size: 18px;
+    color: #02385a;
+    transition: 0.2s color ease-in-out;
+  }
+  .delete span {
+    padding-left: 8px;
+    font-size: 14px;
+  }
+  
+  .delete:hover {
+    color: #f00c08;
+  }
+  

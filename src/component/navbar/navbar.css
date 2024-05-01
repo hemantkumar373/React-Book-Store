@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* start of header */
+
+
+.nav-link{
+  transition: 0.5s text-decoration ease-in-out;
+}
+.nav-link:hover{
+  background-color: gainsboro;
+  color: black;
+}
+
+/* Navbar toggler button */
+.custom-toggler{
+  color: black;
+  border-color: black;
+  border: none;
+  transition: 0.5s ease-in-out;
+}
+ .custom-toggler:hover{
+  scale: 1.2;
+}
+
+.custom-toggler i {
+  color: rgb(1, 1, 1);
+  transition: 0.2s ease-in-out;
+}
+
+.custom-toggler i:hover {
+  transform: scale(1.1);
+}
+
+.notshow{
+  display: none;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2000;
+  background-color: rgb(223, 218, 218);
+  box-shadow: 5px 5px 15px -2px rgba(0, 0, 0, 0.42);
+}

@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.editTable {
+  display: flex;
+  width: 800px;
+  height: auto;
+  flex-wrap: wrap;
+  margin: 40px auto;
+  justify-content: flex-start;
+
+}
+
+.box{
+  margin:10px;
+  width: 200px;
+  border: 0.5px solid gray;
+  border-radius: 5px;
+  padding:10px;
+  background-color: rgb(239, 234, 234);
+  box-shadow: 5px 5px 15px -2px rgba(0, 0, 0, 0.42);
+}
+
+.box h4{
+    font-size: 16px; 
+}
+.box .btn{
+  margin: 0 auto;
+}
